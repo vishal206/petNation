@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -55,10 +56,10 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         String desc = list.get(pos).getDescription();
         String phone = list.get(pos).getPhone();
         String imageUrl = list.get(pos).getImage();
-        holder.address.setText(address);
+//        holder.address.setText(address);
         holder.uploader.setText(name);
         holder.desc.setText(desc);
-        holder.phone.setText(phone);
+//        holder.phone.setText(phone);
         Picasso.get().load(imageUrl).into(holder.image);
 
 
@@ -103,13 +104,14 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
     public class HomeViewHolder extends RecyclerView.ViewHolder {
         ImageView image;
         TextView uploader, address, desc, phone;
-        Button adopt, donate;
+        Button adopt;
+        ImageButton donate;
         public HomeViewHolder(@NonNull View itemView) {
             super(itemView);
             uploader = itemView.findViewById(R.id.uploaded_by_name);
             address = itemView.findViewById(R.id.address_2);
             desc = itemView.findViewById(R.id.description_2);
-            phone = itemView.findViewById(R.id.phone);
+//            phone = itemView.findViewById(R.id.phone);
             image = itemView.findViewById(R.id.roundedImageView_2);
             adopt=itemView.findViewById(R.id.adopt_btn);
             donate= itemView.findViewById(R.id.donate_btn);
