@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appBackground"
+    tools:context=".Home_Fragment.Donate">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="15dp"
+        android:backgroundTint="@color/appBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/uploader2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:fontFamily="@font/lora_medium"/>
+
+            <TextView
+                android:id="@+id/phone_no2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:fontFamily="@font/lora_medium" />
+
+            <TextView
+                android:id="@+id/addressText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:fontFamily="@font/lora_medium" />
+
+            <TextView
+                android:id="@+id/DescText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:fontFamily="@font/lora_medium" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="3dp"
+        android:text="Enter the amount : "
+        android:textColor="@color/appThemeColor"
+        android:textSize="24sp"
+        android:fontFamily="@font/lora_bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/donated_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginVertical="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="PetCoins"
+            android:textColor="@color/black"
+            android:textColorHint="@color/appUnselected"
+            android:inputType="number"
+            android:drawableRight="@drawable/petcoin_edt"
+            android:padding="11dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/donateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginBottom="6dp"
+            android:textAllCaps="false"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/my_green_button"
+            android:text="Donate"
+            android:textColor="@color/appBackground"
+            android:fontFamily="@font/lora_bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 //import com.example.petnation.Home_Fragment.Adopt;
 //import com.example.petnation.Home_Fragment.Donate;
 import com.example.petnation.Home_Fragment.Adopt;
+import com.example.petnation.Home_Fragment.Donate;
 import com.example.petnation.Models.HomeList;
 import com.example.petnation.R;
 import com.google.firebase.database.DataSnapshot;
@@ -61,19 +62,19 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.HomeViewHolder
         Picasso.get().load(imageUrl).into(holder.image);
 
 
-//        holder.donate.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(context, Donate.class);
-//                intent.putExtra("name_key", name);
-//                intent.putExtra("user_id", userid.get(name));
-//                intent.putExtra("address_key", address);
-//                intent.putExtra("image_key", imageUrl);
-//                intent.putExtra("desc_key",desc);
-//                intent.putExtra("phone_key", phone);
-//                context.startActivity(intent);
-//            }
-//        });
+        holder.donate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Donate.class);
+                intent.putExtra("name_key", name);
+                intent.putExtra("user_id", userid.get(name));
+                intent.putExtra("address_key", address);
+                intent.putExtra("image_key", imageUrl);
+                intent.putExtra("desc_key",desc);
+                intent.putExtra("phone_key", phone);
+                context.startActivity(intent);
+            }
+        });
 
 
         holder.adopt.setOnClickListener(new View.OnClickListener() {

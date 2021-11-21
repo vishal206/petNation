@@ -32,6 +32,9 @@
             android:name=".Home_Fragment.Adopt"
             android:exported="true" />
         <activity
+            android:name=".Home_Fragment.Donate"
+            android:exported="true" />
+        <activity
             android:name=".Profile_fragment.MyOrders"
             android:exported="true" />
         <activity
