@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-//import com.example.petnation.Home_Fragment.Adopt;
+import com.example.petnation.Home_Fragment.Adopt;
 import com.example.petnation.Models.HomeList;
 import com.example.petnation.R;
 import com.squareup.picasso.Picasso;

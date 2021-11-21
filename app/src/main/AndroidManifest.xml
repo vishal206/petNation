@@ -29,6 +29,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Home_Fragment.Adopt"
+            android:exported="true" />
+        <activity
             android:name=".Profile_fragment.MyOrders"
             android:exported="true" />
         <activity
