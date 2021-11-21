@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824924488815",
+    "firebase_url": "https://petnation-160a2-default-rtdb.firebaseio.com",
+    "project_id": "petnation-160a2",
+    "storage_bucket": "petnation-160a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824924488815:android:079c11ae46d19ac19c799a",
+        "android_client_info": {
+          "package_name": "com.example.petnation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824924488815-0ukj8q6neh0e1aap2q1f94268ma8n4u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Ng0lHjwcR75GhGo_vu92Oij_vDPswBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824924488815-0ukj8q6neh0e1aap2q1f94268ma8n4u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
