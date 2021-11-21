@@ -53,7 +53,12 @@
         <entry key="..\:/PetNation/app/src/main/res/layout/home_list.xml" value="0.4" />
         <entry key="..\:/PetNation/app/src/main/res/layout/order_list.xml" value="0.27447916666666666" />
         <entry key="..\:/PetNation/app/src/main/res/layout/profile_list_myuploads.xml" value="0.27447916666666666" />
+        <entry key="..\:/devjams/PetNation--main/app/src/main/res/drawable/donate_button.xml" value="0.2351851851851852" />
+        <entry key="..\:/devjams/PetNation--main/app/src/main/res/drawable/my_green_button.xml" value="0.2351851851851852" />
         <entry key="..\:/devjams/PetNation--main/app/src/main/res/layout/activity_donate.xml" value="0.13385416666666666" />
+        <entry key="..\:/devjams/PetNation--main/app/src/main/res/layout/activity_main.xml" value="0.1984375" />
+        <entry key="..\:/devjams/PetNation--main/app/src/main/res/layout/fragment_home.xml" value="0.13385416666666666" />
+        <entry key="..\:/devjams/PetNation--main/app/src/main/res/layout/home_list.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>

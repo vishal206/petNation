@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appBackground"
+    android:background="@drawable/back1"
     android:orientation="vertical"
-    android:layout_marginHorizontal="20dp"
+    android:paddingHorizontal="20dp"
     tools:context=".Profile_fragment.FragmentProfile">
 
     <TextView
@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:background="@color/appBackground"
         android:fontFamily="@font/lora_bold"
         android:text="Profile"
         android:textColor="@color/appThemeColor"
