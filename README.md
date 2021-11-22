@@ -2,7 +2,7 @@
 # PetNation
 We created an application which will help stray animals. A platform which will allow a user to upload stray animals near their surroundings and adopt or donate for other stray animals in their city.
 
-* Check our PPT here: https://drive.google.com/file/d/161rpSR9BVjU708t-Ev1QaqujQ1p-DjK0/view?usp=sharing
+* Check our PPT for more detail: https://drive.google.com/file/d/161rpSR9BVjU708t-Ev1QaqujQ1p-DjK0/view?usp=sharing
 ## Donation-Concept
 We are introducing a currency named "petCoin". We are creating a centralized donation system. Users will pay us real money and they will get petCoins accordingly. Users can use these petCoins to donate to other animals Or they can buy food for stray animals from stores ( will be explained in next para).<br/>
 ### Why this donation system is complex?
